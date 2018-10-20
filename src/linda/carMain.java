@@ -13,6 +13,13 @@ public class carMain {
 		System.out.println(thisaraCar.getMiles(10));
 		udaniCar.printLicense();
 		thisaraCar.printLicense();
+		
+		double input = 5.0;
+		
+		udaniCar.increaseInput(input);
+		
+		System.out.println(input);
+		
 	}
 
 }

@@ -28,6 +28,15 @@ public class Car {
 		
 	}
 	
+	public void increaseInput(double value){
+		System.out.println("increaseInput " + value);
+		
+		value += 10; // value = value + 10;
+		
+		System.out.println(value);
+		
+	}
+	
 		
 
 }
