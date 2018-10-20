@@ -12,13 +12,16 @@ public class Car {
 		
 		public Car(double inputavgMilesPG, String inputlicense, Color inputpaintColor, Boolean inputtailingWorking)
 		
-		{
-			this.avgMilesPG=inputavgMilesPG;
-			this.license=inputlicense;
-			this.paintColor=inputpaintColor;
-			this.tailingworking=inputtailingWorking;
-			
-		}
+	{
+		this.avgMilesPG = inputavgMilesPG;
+		this.license = inputlicense;
+		this.paintColor = inputpaintColor;
+		this.tailingworking = inputtailingWorking;
+	}
+		
+	public double getMiles(double numberOfGallons) {
+		return this.avgMilesPG * numberOfGallons;
+	}
 		
 
 }
