@@ -6,7 +6,7 @@ public class Car {
 
 		// TODO Auto-generated method stub
 		Double avgMilesPG;
-		String license;
+		private String license;
 		Color paintColor;
 		Boolean tailingworking;
 		
@@ -19,9 +19,15 @@ public class Car {
 		this.tailingworking = inputtailingWorking;
 	}
 		
-	public double getMiles(double numberOfGallons) {
-		return this.avgMilesPG * numberOfGallons;
+	public double getMiles(double numberofgallons) {
+		return this.avgMilesPG * numberofgallons;
 	}
+
+	public void printLicense() {
+	System.out.println("License : "+license);
+		
+	}
+	
 		
 
 }
