@@ -92,20 +92,6 @@ public class LagestNum {
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	public int getNthSmallestNumber(int array[],int n)
 	{
 		for(int outer=0; outer<n; outer++)
