@@ -1,4 +1,4 @@
-package linda;
+package encapsulation;
 
 
 public class BankAccount{

@@ -1,4 +1,4 @@
-package linda;
+package inheritance;
 
 public class Cricket extends Insect{
 	
